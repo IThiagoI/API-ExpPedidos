@@ -1,4 +1,4 @@
-package br.com.trino.ExpPedidos.produto;
+package br.com.trino.ExpPedidos.diasProducao;
 
 public enum DiasSemana {
 
@@ -8,6 +8,5 @@ public enum DiasSemana {
     QUARTA,
     QUINTA,
     SEXTA,
-    SABADO,
-    DIARIO;
+    SABADO
 }

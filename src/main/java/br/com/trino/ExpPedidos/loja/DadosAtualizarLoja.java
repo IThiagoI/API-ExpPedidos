@@ -1,4 +1,12 @@
 package br.com.trino.ExpPedidos.loja;
 
-public record DadosAtualizarLoja() {
+import jakarta.validation.constraints.NotNull;
+
+public record DadosAtualizarLoja(
+
+        @NotNull
+        Long id,
+        String nome,
+        long cnpj
+) {
 }

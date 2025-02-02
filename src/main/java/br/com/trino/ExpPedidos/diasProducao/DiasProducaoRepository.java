@@ -1,4 +1,6 @@
 package br.com.trino.ExpPedidos.diasProducao;
 
-public interface DiasProducaoRepository {
+import org.springframework.data.jpa.repository.JpaRepository;
+
+public interface DiasProducaoRepository extends JpaRepository<DiasProducao,Long> {
 }

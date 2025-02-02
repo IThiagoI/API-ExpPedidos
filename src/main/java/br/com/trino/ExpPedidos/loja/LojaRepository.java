@@ -1,4 +1,6 @@
 package br.com.trino.ExpPedidos.loja;
 
-public interface LojaRepository {
+import org.springframework.data.jpa.repository.JpaRepository;
+
+public interface LojaRepository extends JpaRepository<Loja,Long>{
 }

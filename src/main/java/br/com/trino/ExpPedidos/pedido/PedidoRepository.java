@@ -1,4 +1,6 @@
 package br.com.trino.ExpPedidos.pedido;
 
-public interface PedidoRepository {
+import org.springframework.data.jpa.repository.JpaRepository;
+
+public interface PedidoRepository extends JpaRepository<Pedido,Long> {
 }

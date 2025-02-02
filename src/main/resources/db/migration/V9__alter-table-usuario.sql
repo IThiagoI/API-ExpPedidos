@@ -1,1 +1,1 @@
-alter table loja add ativo tinyint;
+alter table usuario add ativo tinyint;
