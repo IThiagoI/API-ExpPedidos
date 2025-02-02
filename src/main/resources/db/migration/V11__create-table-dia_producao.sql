@@ -1,0 +1,1 @@
+alter table produto add ativo tinyint;

@@ -1,0 +1,1 @@
+alter table usuario add ativo tinyint;
